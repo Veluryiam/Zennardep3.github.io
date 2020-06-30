@@ -1,0 +1,363 @@
+@import "libs/reset.scss";
+
+.color-header {
+    width: 100%;
+    height: 150px;
+    background-color: #579c87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: #579c87;
+  height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color:#fdcb46;
+    font-size: 2rem;
+    margin: 0px 20px 0px 20px;
+}
+
+.footer-mentions {
+    display: flex;
+    justify-content: left;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+
+.color-title {
+    color: #fdcb46;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: -6px;
+}
+
+.menu {
+    height: 500px;
+    width: 300px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcdfdb;
+    color: #3d1319;
+}
+
+.div-menu {
+    margin: 25px;
+    width: 300px;
+    text-decoration: none;
+}
+ 
+.grid {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+  }
+
+.menu-deux {
+    @extend .menu;
+    background-color: #fff5fe;
+    color: #cb802f;
+}
+  
+.menu-trois {
+    @extend .menu;
+    background-color: #edefef;
+    color: #2092fa;
+}
+
+.menu-quatre {
+    @extend .menu;
+    background-color: #fdfffd;
+    color: #72bf56;
+}
+
+.font-color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+
+    &:hover{
+        transform: scale(1.3);
+        opacity: 0.4;
+        transition: transform 450ms, opacity 400ms 150ms
+    }
+}
+
+.chic-card {
+    background: linear-gradient(to left, #6e4ccc, #c67412);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.papille-card {
+    background: linear-gradient(to left, #73bcfc, #0b31de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.palette-card {
+    background: linear-gradient(to left,#c3ff8a, #3e923a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.prochainement {
+    width: 300px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    background-color: #579c87;
+    color: #fdcb46;
+}
+
+.menu-full {
+    height: 1000px;
+    width: 700px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcdfdb;
+    color: #3d1319;
+}
+
+.font-color-full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-title {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.3rem;
+}
+
+.menu-title-haut {
+    @extend .menu-title;
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.menu-title-bas {
+    @extend .menu-title;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+td {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.menu-title-big {
+    @extend .font-color-full;
+}
+
+.prelude-div {
+    @extend .font-color-full;
+    width: 600px;
+    height: 950px;
+}
+
+table {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    width: 600px;
+}
+
+.gauche {
+    padding-left: 80px;
+}
+
+.note-bas {
+    margin: auto;
+}
+
+.ornement {
+    height: 6px;
+}
+
+.ornement-margin {
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chic-color {
+    background-color: #fff5fe;
+}
+
+.chic-un {
+    color: #c67412;
+}
+
+.chic-deux {
+    color: #a56799;
+}
+
+.chic-trois {
+    color: #6f4dcc;
+}
+
+.delice-color {
+    background-color: #edefef;
+}
+
+.papille-font-color, .palette-font-color {
+    color: black;
+}
+
+.palette-color {
+    background-color: #fdfffd;
+}
+
+.animation-title-note {
+    background: linear-gradient(to top,#3d1319 0%, #3d1319 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.chic-un-animation {
+    background: linear-gradient(to top, #c67412 0%, #c67412 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.chic-deux-animation {
+    background: linear-gradient(to top, #a56799 0%, #a56799 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.chic-trois-animation {
+    background: linear-gradient(to top, #6f4dcc 0%, #6f4dcc 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-un-papille {
+    background: linear-gradient(to top, #0228dd 0%, #0228dd 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-deux-papille {
+    background: linear-gradient(to top, #0670f3 0%, #0670f3 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-trois-papille {
+    background: linear-gradient(to top, #229df9 0%, #229df9  4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-un-palette {
+    background: linear-gradient(to top, #42973d 0%, #42973d  4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-deux-palette {
+    background: linear-gradient(to top, #83cd5f 0%, #83cd5f  4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-trois-palette {
+    background: linear-gradient(to top, #b7f97b 0%, #b7f97b  4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
+
+.animation-wiggle:hover {
+    animation: wiggle 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
