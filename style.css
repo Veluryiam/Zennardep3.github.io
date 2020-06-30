@@ -47,6 +47,10 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
+@font-face {
+  font-family: "Devonshire-Regular";
+  src: url(Devonshire-Regular.ttf);
+}
 .color-header {
   width: 100%;
   height: 150px;
@@ -116,7 +120,7 @@ a {
 }
 
 .grid {
-  width: 1000px;
+  width: 40%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -146,6 +150,7 @@ a {
   width: 100%;
   height: 100%;
   font-size: 1.5rem;
+  font-family: "Devonshire-Regular";
 }
 .font-color:hover {
   transform: scale(1.3);
@@ -447,9 +452,12 @@ table {
 
 @media screen and (max-width: 1024px) {
   .main {
+    width: 90%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 20px;
   }
 
   header {
@@ -457,14 +465,57 @@ table {
   }
 
   .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  footer {
+    width: 100%;
+    left: 0px;
+  }
+
+  .div-menu {
+    width: 90%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  footer {
-    max-width: 960px;
-    left: 0px;
+  .prelude-div {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .menu-full {
+    height: auto;
+    max-width: 90%;
+  }
+
+  table {
+    height: auto;
+    max-width: 80%;
+  }
+
+  .menu-title, .menu-title-haut, .menu-title-bas {
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .note-bas-img {
+    max-width: 25%;
+  }
+
+  .menu-title-bas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 768px) {
@@ -474,11 +525,60 @@ table {
 
   footer {
     width: 100%;
-    max-width: 660px;
-    left: 60px;
   }
 
   .main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-menu {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prelude-div {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .menu-full {
+    height: auto;
+    max-width: 90%;
+  }
+
+  table {
+    height: auto;
+    max-width: 80%;
+  }
+
+  .menu-title, .menu-title-haut, .menu-title-bas {
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .note-bas-img {
+    max-width: 25%;
+  }
+
+  .menu-title-bas {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -491,15 +591,64 @@ table {
 
   footer {
     width: 100%;
-    max-width: 425px;
     left: 0px;
   }
 
   .main {
+    width: 90%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
+  }
+
+  .grid {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-menu {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prelude-div {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .menu-full {
+    height: auto;
+    max-width: 90%;
+  }
+
+  table {
+    height: auto;
+    max-width: 80%;
+  }
+
+  .menu-title, .menu-title-haut, .menu-title-bas {
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .note-bas-img {
+    max-width: 25%;
+  }
+
+  .menu-title-bas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 375px) {
@@ -510,16 +659,62 @@ table {
 
   footer {
     width: 100%;
-    max-width: 375px;
     left: 0px;
   }
 
-  .animation-wiggle {
-    margin-left: 20px;
-    font-size: 0.5rem;
+  .main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .main {
+  .grid {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-menu {
+    height: auto;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prelude-div {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .menu-full {
+    height: auto;
+    max-width: 90%;
+  }
+
+  table {
+    height: auto;
+    max-width: 80%;
+  }
+
+  .menu-title, .menu-title-haut, .menu-title-bas {
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .note-bas-img {
+    max-width: 25%;
+  }
+
+  .menu-title-bas {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
