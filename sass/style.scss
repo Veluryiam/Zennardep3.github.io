@@ -361,3 +361,39 @@ table {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 100px 20px;
+    padding: 50px;
+    background: #fdfffd;
+    text-align: justify;
+    font-family: "Segoe Print", sans-serif;
+    color: #4B4B4B;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    font-size: 1.1rem;
+}
+
+.mention-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 130px;
+    margin-top: 80px;
+    color: black;
+}
+
+.mention {
+    font-size: 1.1rem;
+    color: black;
+
+}
+
+.main-div h3 {
+    font-size: 2rem;
+    color: yellow;
+}
