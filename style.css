@@ -56,12 +56,15 @@ td:not([align]), th:not([align]) {
   align-items: center;
 }
 
+footer {
+  width: 100%;
+}
+
 .color-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100%;
   bottom: 0;
   background: #579c87;
   height: 80px;
@@ -441,11 +444,34 @@ table {
   color: yellow;
 }
 
-@media all and (max-width: 1024px) {
-  .div-menu {
-    margin: auto;
-    display: grid;
-    grid-template-columns: auto;
+@media screen and (max-width: 1024px) {
+
+  header {
+    width: 100%;
+  }
+
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    width: 100%;
+    left: 0px;
   }
 }
 
