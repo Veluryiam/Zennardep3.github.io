@@ -65,6 +65,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  width: 100%;
   bottom: 0;
   background: #579c87;
   height: 80px;
@@ -445,6 +446,11 @@ table {
 }
 
 @media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   header {
     width: 100%;
@@ -457,21 +463,66 @@ table {
   }
 
   footer {
-    width: 100%;
+    max-width: 960px;
     left: 0px;
   }
 }
-
-@media screen and (max-width: 524px) {
-  .grid {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
   }
 
   footer {
     width: 100%;
+    max-width: 660px;
+    left: 60px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    max-width: 425px;
     left: 0px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    width: 100%;
+    max-width: 375px;
+  }
+
+  footer {
+    width: 100%;
+    max-width: 375px;
+    left: 0px;
+  }
+
+  .animation-wiggle {
+    margin-left: 20px;
+    font-size: 0.5rem;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
