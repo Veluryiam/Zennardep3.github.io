@@ -397,3 +397,13 @@ table {
     font-size: 2rem;
     color: yellow;
 }
+
+
+
+@media all and (max-width: 1024px) {
+    .div-menu{
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

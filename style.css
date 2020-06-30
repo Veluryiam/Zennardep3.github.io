@@ -441,4 +441,12 @@ table {
   color: yellow;
 }
 
+@media all and (max-width: 1024px) {
+  .div-menu {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
