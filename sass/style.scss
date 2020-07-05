@@ -183,7 +183,7 @@ a {
     background: linear-gradient(to left, #6e4ccc, #c67412);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Roboto";
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 
@@ -191,7 +191,7 @@ a {
     background: linear-gradient(to left, #73bcfc, #0b31de);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Walbaum";
+    font-family: "Walbaum", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
 }
 
@@ -200,7 +200,7 @@ a {
     background: linear-gradient(to left,#c3ff8a, #3e923a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Kaushan";
+    font-family: "Kaushan", Helvetica, Arial, sans-serif;
     font-size: 2rem;
 }
 
@@ -302,18 +302,18 @@ table {
 
 .chic-un {
     color: #c67412;
-    font-family: "Roboto";
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 
 }
 
 .chic-deux {
     color: #a56799;
-    font-family: "Roboto";
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 .chic-trois {
     color: #6f4dcc;
-    font-family: "Roboto";
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 .delice-color {
@@ -322,18 +322,18 @@ table {
 
 .papille-font-color {
     color: black;
-    font-family: "bubble";
+    font-family: "bubble", Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
 }
 
 .palette-font-color {
     color: black;
-    font-family: "Cart";
+    font-family: "Cart", Helvetica, Arial, sans-serif;
     font-size: 1.3rem;
 }
 
 .font-menu {
-    font-family: "Segoepr";
+    font-family: "Segoepr", Helvetica, Arial, sans-serif;
 }
 
 
@@ -345,7 +345,7 @@ table {
     background: linear-gradient(to top,#3d1319 0%, #3d1319 4px, transparent 5px) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
-    font-family: "Caveat-Regular";
+    font-family: "Caveat-Regular", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     font-weight: bold;
 
@@ -460,7 +460,7 @@ table {
     padding: 50px;
     background: #fdfffd;
     text-align: justify;
-    font-family: "Segoe Print", sans-serif;
+    font-family: "Segoe Print", Helvetica, Arial, sans-serif;
     color: #4B4B4B;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
     font-size: 1.1rem;
@@ -513,11 +513,11 @@ table {
   }
 
 .note-card {
-    font-family: "Devonshire-Regular";
+    font-family: "Devonshire-Regular", Helvetica, Arial, sans-serif;
 }
 
 .font-segoe {
-    font-family: "segoepr";
+    font-family: "segoepr", Helvetica, Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
