@@ -1,7 +1,42 @@
 @import "libs/reset.scss";
 @font-face {
     font-family: "Devonshire-Regular";
-    src: url(Devonshire-Regular.ttf);
+    src: url("../font/Devonshire-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Caveat-Regular";
+    src: url("../font/Caveat-Regular.ttf");
+}
+
+@font-face {
+    font-family : "segoepr";
+    src: url("../font/segoepr.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/RobotoSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Walbaum";
+    src: url("../font/Walbaum\ MT\ W04\ Italic.ttf");
+}
+
+@font-face{
+    font-family: "bubble";
+    src: url("../font/BurstMyBubbleBold.ttf");
+}
+
+@font-face {
+    font-family: "Kaushan";
+    src: url("../font/kaushanscript-regular.ttf");
+}
+
+@font-face {
+    font-family: "Cart";
+    src: url("../font/lacartoonerie.ttf");
 }
 
 @keyframes dot {
@@ -100,7 +135,7 @@ a {
 }
  
 .grid {
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -147,6 +182,7 @@ a {
     background: linear-gradient(to left, #6e4ccc, #c67412);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Roboto";
 }
 
 
@@ -154,6 +190,8 @@ a {
     background: linear-gradient(to left, #73bcfc, #0b31de);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Walbaum";
+    font-size: 1.8rem;
 }
 
 
@@ -161,6 +199,8 @@ a {
     background: linear-gradient(to left,#c3ff8a, #3e923a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Kaushan";
+    font-size: 2rem;
 }
 
 .prochainement {
@@ -176,7 +216,7 @@ a {
 }
 
 .menu-full {
-    height: 1000px;
+    height: 1200px;
     width: 700px;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
     display: flex;
@@ -184,6 +224,7 @@ a {
     align-items: center;
     background-color: #fcdfdb;
     color: #3d1319;
+    margin-top: 50px;
 }
 
 .font-color-full {
@@ -209,16 +250,19 @@ a {
 .menu-title-bas {
     @extend .menu-title;
     font-size: 1.5rem;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 td {
     padding-bottom: 15px;
-    font-size: 1.2rem;
 }
 
 .menu-title-big {
     @extend .font-color-full;
+}
+
+.taille-rem {
+    font-size: 2.2rem;
 }
 
 .prelude-div {
@@ -257,23 +301,40 @@ table {
 
 .chic-un {
     color: #c67412;
+    font-family: "Roboto";
+
 }
 
 .chic-deux {
     color: #a56799;
+    font-family: "Roboto";
 }
 
 .chic-trois {
     color: #6f4dcc;
+    font-family: "Roboto";
 }
 
 .delice-color {
     background-color: #edefef;
 }
 
-.papille-font-color, .palette-font-color {
+.papille-font-color {
     color: black;
+    font-family: "bubble";
+    font-size: 1.6rem;
 }
+
+.palette-font-color {
+    color: black;
+    font-family: "Cart";
+    font-size: 1.3rem;
+}
+
+.font-menu {
+    font-family: "Segoepr";
+}
+
 
 .palette-color {
     background-color: #fdfffd;
@@ -283,6 +344,9 @@ table {
     background: linear-gradient(to top,#3d1319 0%, #3d1319 4px, transparent 5px) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
+    font-family: "Caveat-Regular";
+    font-size: 2rem;
+    font-weight: bold;
 
     &:hover {
         background-size: 100% 100%;
@@ -320,6 +384,7 @@ table {
 }
 
 .animation-un-papille {
+    font-size: 2rem;
     background: linear-gradient(to top, #0228dd 0%, #0228dd 4px, transparent 5px) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
@@ -330,6 +395,7 @@ table {
 }
 
 .animation-deux-papille {
+    font-size: 2rem;
     background: linear-gradient(to top, #0670f3 0%, #0670f3 4px, transparent 5px) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
@@ -340,6 +406,7 @@ table {
 }
 
 .animation-trois-papille {
+    font-size: 2rem;
     background: linear-gradient(to top, #229df9 0%, #229df9  4px, transparent 5px) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
@@ -444,6 +511,14 @@ table {
     animation-delay: 0.3s;
   }
 
+.note-card {
+    font-family: "Devonshire-Regular";
+}
+
+.font-segoe {
+    font-family: "segoepr";
+}
+
 @media screen and (max-width: 1024px) {
 
 
@@ -514,6 +589,10 @@ table {
         align-items: center;
         justify-content: center;
     }
+    
+    .chic-card {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -583,6 +662,10 @@ table {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    
+    .chic-card {
+        font-size: 1.5rem;
     }
 }
 
@@ -655,6 +738,10 @@ table {
         justify-content: center;
     }
 
+    
+    .chic-card {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -728,4 +815,7 @@ table {
         justify-content: center;
     }
 
+    .chic-card {
+        font-size: 1.5rem;
+    }
 }
