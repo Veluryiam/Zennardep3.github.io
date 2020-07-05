@@ -49,35 +49,35 @@ td:not([align]), th:not([align]) {
 
 @font-face {
   font-family: "Devonshire-Regular";
-  src: url("../font/Devonshire-Regular.ttf") format("truetype");
+  src: url("font/Devonshire-Regular.ttf") format("woff");
 }
 @font-face {
   font-family: "Caveat-Regular";
-  src: url("../font/Caveat-Regular.ttf") format("truetype");
+  src: url("font/Caveat-Regular.ttf") format("woff");
 }
 @font-face {
   font-family: "segoepr";
-  src: url("../font/segoepr.ttf") format("truetype");
+  src: url("font/segoepr.ttf") format("woff");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../font/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+  src: url("font/RobotoSlab-VariableFont_wght.ttf") format("woff");
 }
 @font-face {
   font-family: "Walbaum";
-  src: url("../font/Walbaum MT W04 Italic.ttf") format("truetype");
+  src: url("font/Walbaum MT W04 Italic.ttf") format("woff");
 }
 @font-face {
   font-family: "bubble";
-  src: url("../font/BurstMyBubbleBold.ttf") format("truetype");
+  src: url("font/BurstMyBubbleBold.ttf") format("woff");
 }
 @font-face {
   font-family: "Kaushan";
-  src: url("../font/kaushanscript-regular.ttf") format("truetype");
+  src: url("font/kaushanscript-regular.ttf") format("woff");
 }
 @font-face {
   font-family: "Cart";
-  src: url("../font/lacartoonerie.ttf") format("truetype");
+  src: url("font/lacartoonerie.ttf") format("truetype");
 }
 @keyframes dot {
   0% {
