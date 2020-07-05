@@ -555,12 +555,11 @@ table {
 
 @media screen and (max-width: 1024px) {
   .main {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
   }
 
   header {
@@ -635,7 +634,7 @@ table {
   }
 
   .main {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -693,6 +692,14 @@ table {
 
   .chic-card {
     font-size: 1.5rem;
+  }
+
+  .font-size-footer {
+    font-size: 1.4rem;
+  }
+
+  .color-title {
+    font-size: 3.5rem;
   }
 }
 @media screen and (max-width: 425px) {
@@ -706,7 +713,7 @@ table {
   }
 
   .main {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -764,6 +771,14 @@ table {
 
   .chic-card {
     font-size: 1.5rem;
+  }
+
+  .font-size-footer {
+    font-size: 1.4rem;
+  }
+
+  .color-title {
+    font-size: 3.5rem;
   }
 }
 @media screen and (max-width: 375px) {
@@ -772,17 +787,22 @@ table {
     max-width: 375px;
   }
 
+  .font-size-footer {
+    font-size: 1.3rem;
+  }
+
   footer {
     width: 100%;
     left: 0px;
   }
 
   .main {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0px;
   }
 
   .grid {
@@ -837,6 +857,10 @@ table {
 
   .chic-card {
     font-size: 1.5rem;
+  }
+
+  .color-title {
+    font-size: 3.5rem;
   }
 }
 
