@@ -188,9 +188,10 @@ a {
 }
 
 .div-menu {
-  margin: 25px;
   width: 300px;
   text-decoration: none;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .grid {
@@ -801,7 +802,7 @@ table {
   .div-menu {
     height: auto;
     display: flex;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
