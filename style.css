@@ -126,6 +126,7 @@ td:not([align]), th:not([align]) {
   }
 }
 .color-header {
+  width: 100%;
   height: 150px;
   background-color: #579c87;
   display: flex;
@@ -563,10 +564,6 @@ table {
     justify-content: center;
   }
 
-  header {
-    width: 100%;
-  }
-
   .grid {
     display: flex;
     flex-direction: column;
@@ -626,10 +623,6 @@ table {
   }
 }
 @media screen and (max-width: 768px) {
-  header {
-    width: 100%;
-  }
-
   footer {
     width: 100%;
   }
@@ -704,10 +697,6 @@ table {
   }
 }
 @media screen and (max-width: 425px) {
-  header {
-    width: 100%;
-  }
-
   footer {
     width: 100%;
     left: 0px;
@@ -783,11 +772,6 @@ table {
   }
 }
 @media screen and (max-width: 375px) {
-  header {
-    width: 100%;
-    max-width: 375px;
-  }
-
   .font-size-footer {
     font-size: 1.3rem;
   }
