@@ -455,15 +455,16 @@ table {
 .main-div {
     display: flex;
     flex-direction: column;
-    width: 75%;
-    margin: 100px 20px;
-    padding: 50px;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     background: #fdfffd;
-    text-align: justify;
     font-family: "Segoe Print", Helvetica, Arial, sans-serif;
     color: #4B4B4B;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
     font-size: 1.1rem;
+    word-break: break-all;
 }
 
 .mention-main {
@@ -475,6 +476,7 @@ table {
     margin-bottom: 130px;
     margin-top: 80px;
     color: black;
+    width: 100%;
 }
 
 .mention {
@@ -519,6 +521,7 @@ table {
 .font-segoe {
     font-family: "segoepr", Helvetica, Arial, sans-serif;
 }
+
 
 @media screen and (max-width: 1024px) {
 
